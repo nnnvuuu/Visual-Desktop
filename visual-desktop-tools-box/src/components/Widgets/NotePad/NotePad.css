@@ -1,0 +1,98 @@
+/* .app{
+  height: auto;
+  width: 100%; 
+} */
+
+/* 
+.buttonImg{
+  width: 20px;
+  height:20px;
+} */
+
+@media (max-width: 575.98px) { 
+  .buttonImg{
+    width: 25px;
+    height:20px;
+  }
+  
+ }
+
+
+@media (min-width: 576px) { 
+  .buttonImg{
+    width: 20px;
+    height:20px;
+  }
+ }
+
+
+@media (min-width: 768px) { 
+  .buttonImg{
+    width: 30px;
+    height:25px;
+  }
+  
+  
+}
+
+
+
+@media (min-width: 992px) {
+  .buttonImg{
+    width: 27px;
+    height:27px;
+  }
+  
+ }
+
+
+@media (min-width: 1200px) { 
+  .buttonImg{
+    width: 30px;
+    height:30px;
+  }
+  
+}
+
+
+
+
+
+
+.topAppBox{
+  background-color: #806464;
+}
+
+.leftColumn{
+  background-color: #303433;
+  width: 20%;
+  /* height: 100vh; */
+}
+
+.titleFont{
+  color: #FFDFDF;
+}
+
+.dateFont{
+  color: #E1CECE;
+}
+
+.contentFont{
+  color: #865A5A;
+}
+
+.rightColumn{
+  background-color: #352828;
+  color: white;
+  width: 80%;
+  /* height: 100vh; */
+}
+
+
+#textarea{
+  background-color:#352828;
+  color: white;
+   border-color: #352828;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}

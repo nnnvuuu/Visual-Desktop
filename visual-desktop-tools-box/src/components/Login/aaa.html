@@ -1,0 +1,53 @@
+<head>
+  <meta charset="UTF-8">
+  <script src="backendtest.js"></script>
+</head>
+
+<body>
+  <!-- Should be a direct child of BODY -->
+  <div class="login-screen">
+      <!-- Default view-page layout -->
+      <div class="view">
+        <div class="page">
+          <!-- page-content has additional login-screen content -->
+          <div class="page-content login-screen-content">
+            <div class="login-screen-title">Browser Desktop</div>
+            <!-- Login form -->
+            <form onsubmit="getFormData()">
+              <div class="list-block-label">Please enter your login</div>
+              <div class="list-block">
+                <ul>
+                  <li class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title label">Username</div>
+                      <div class="item-input">
+                        <input type="text" id="username" name="username" placeholder="Username">
+                      </div>
+                    </div>
+                  </li>
+                  <li class="item-content">
+                    <div class="item-inner">
+                      <div class="item-title label">Password</div>
+                      <div class="item-input">
+                        <input type="password" id="password" name="password" placeholder="Password">
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+              <div class="list-block">
+                <ul>
+                  <li>
+                    <input type="submit">
+                  </li>
+                </ul>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+  </div>
+</body>

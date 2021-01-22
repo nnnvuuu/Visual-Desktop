@@ -1,0 +1,79 @@
+
+ .outerContainer{
+  width: 100%;
+  height: auto;
+  background: black;
+
+  
+}
+
+
+  .outputFont{
+    letter-spacing: 0.1em;
+    font-style: oblique;
+    font-size: 6vw;
+    margin-left: 3em;
+    overflow-wrap: break-word;
+    color: white;
+  }
+
+
+
+
+
+
+
+@media (max-width: 575.98px) { 
+  .buttonFont{
+    font-style: oblique;
+    font-size: 5.2em;
+    color: white;
+  }
+  
+ }
+
+
+@media (min-width: 576px) { 
+  .buttonFont{
+    font-style: oblique;
+    font-size: 6em;
+    color: white;
+  }
+ }
+
+
+@media (min-width: 768px) { 
+  .buttonFont{
+    font-style: oblique;
+    font-size: 6em;
+    color: white;
+  }
+  
+  
+}
+
+
+
+@media (min-width: 992px) {
+  .buttonFont{
+    font-style: oblique;
+    font-size: 6em;
+    color: white;
+  }
+  
+ }
+
+
+@media (min-width: 1200px) { 
+  .buttonFont{
+    font-style: oblique;
+    font-size: 6em;
+    color: white;
+  }
+  
+}
+
+.row{
+  justify-content: center;
+  border: 1px white solid;
+}

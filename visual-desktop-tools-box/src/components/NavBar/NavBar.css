@@ -1,0 +1,95 @@
+
+@media (max-width: 575.98px) {
+  .fontSize4{
+    font-size: 1.4em;
+      margin-top: 0.2em;
+  }
+
+
+ }
+
+
+@media (min-width: 576px) {
+  .fontSize4{
+
+  }
+
+ }
+
+
+@media (min-width: 768px) {
+  .fontSize4{
+    font-size: 1.8em;
+  }
+
+
+}
+
+
+
+@media (min-width: 992px) {
+  .fontSize4{
+
+  }
+
+ }
+
+
+@media (min-width: 1200px) {
+  .fontSize4{
+
+  }
+
+}
+
+
+
+
+.fontSize3{
+  margin-top: 1em;
+}
+
+.searchbar{
+
+  width: 300px;
+  margin-top: 10px;
+
+}
+
+.searchBtn{
+  height: 30px;
+  background-color: #6c757e;
+  margin-top: 14px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+  padding-top: 4px;
+  padding-left: 3px;
+  padding-right: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.searchBtn:hover, .searchBtn:active {
+  background-color: #989ea1;
+  text-decoration: none;
+  color: white;
+}
+
+.btn {
+  font-size: 10px;
+  background-color: gray;
+  color: white;
+}
+
+.btn:hover{
+  background-color: #989ea1;
+  text-decoration: none;
+  color: white;
+}
+
+.btnSpace {
+  margin-bottom: 20px;
+}

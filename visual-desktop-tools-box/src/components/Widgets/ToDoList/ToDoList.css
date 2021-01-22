@@ -1,0 +1,47 @@
+.Interface{
+    background-color: gray;
+    min-height: 500px;
+    width: 800px;
+    max-width: 100%;
+    margin: 20px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.modal + .modal-backdrop ~ .modal-backdrop {display:none}
+
+.task{
+    background: whitesmoke;
+    border-radius: 5px;
+    margin: 4px auto;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    
+}
+.downloadButton{
+
+    /* position: absolute;
+    right:0; */
+}
+
+.title{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#todo-form input{
+    border: 0;
+    width: 200px;
+    height: 40px;
+    margin: 20px;
+    padding: 0 10px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#todo-form input:focus{
+    outline: none;
+}
